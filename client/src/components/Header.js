@@ -56,7 +56,7 @@ class Header extends Component {
         <div className="navbar-fixed">
           <nav className="navbar-fixed">
             <div className="nav-wrapper orange">
-              <a href="/" className="brand-logo center">Food</a>
+              <a href="/" className="brand-logo" style={{ position: 'absolute', left: '100px'}}>Food</a>
               <a href="/" data-target="mobile-demo" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
               <ul className="right hide-on-med-and-down">
                 {this.renderLoginButton()}
